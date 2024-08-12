@@ -25,7 +25,7 @@ Example:
 Calculate the mean sulfate level across monitors 1 to 10
 pollutantmean("specdata", "sulfate", 1:10)
 
-###complete
+### complete
 
 Reports the number of completely observed cases (rows with no missing values) in each data file in the specified directory.
 
@@ -47,7 +47,7 @@ complete("specdata")
 Get the number of complete cases only for files with IDs 1, 3, and 5
 complete("specdata", id = c(1, 3, 5))
 
-###corr
+### corr
 
 Calculates the correlation between sulfate and nitrate for monitors where the number of completely observed cases exceeds a given threshold.
 
