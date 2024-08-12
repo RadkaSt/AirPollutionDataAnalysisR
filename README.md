@@ -1,5 +1,5 @@
 # Air Pollution Data Analysis in R
-Programming assignment 1 in the course of R programming from Johns Hopkins University
+Programming assignment 1 in the course of R programming from Johns Hopkins University taught by Roger D. Peng
 
 This repository contains R functions for analyzing air pollution data. The functions are designed to work with datasets containing measurements of pollutants such as sulfate and nitrate from various monitoring stations. Below is a description of the functions included in this repository:
 Functions
