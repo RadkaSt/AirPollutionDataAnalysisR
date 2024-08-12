@@ -3,7 +3,7 @@ Programming assignment 1 in the course of R programming from Johns Hopkins Unive
 
 This repository contains R functions for analyzing air pollution data. The functions are designed to work with datasets containing measurements of pollutants such as sulfate and nitrate from various monitoring stations. Below is a description of the functions included in this repository:
 Functions
-pollutantmean
+### pollutantmean
 
 Calculates the mean of a specified pollutant (sulfate or nitrate) across a specified list of monitors.
 
@@ -25,7 +25,7 @@ Example:
 Calculate the mean sulfate level across monitors 1 to 10
 pollutantmean("specdata", "sulfate", 1:10)
 
-complete
+###complete
 
 Reports the number of completely observed cases (rows with no missing values) in each data file in the specified directory.
 
@@ -47,7 +47,7 @@ complete("specdata")
 Get the number of complete cases only for files with IDs 1, 3, and 5
 complete("specdata", id = c(1, 3, 5))
 
-corr
+###corr
 
 Calculates the correlation between sulfate and nitrate for monitors where the number of completely observed cases exceeds a given threshold.
 
